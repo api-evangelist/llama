@@ -1,84 +1,46 @@
-name: Llama API
-description: APIs for Meta's Llama large language models
-image: https://example.com/llama-logo.png
-url: https://www.llama-api.com
-created: '2024-01-15'
-modified: '2024-01-15'
-apis:
-- name: Llama Chat Completion API
-  description: Generate conversational responses using Llama models
-  image: https://example.com/llama-chat-icon.png
-  humanURL: https://docs.llama-api.com/chat
-  baseURL: https://api.llama-api.com/v1
-  tags:
-  - AI
-  - LLM
-  - Chat
-  - Conversational AI
-  properties:
-  - type: Documentation
-    url: https://docs.llama-api.com/chat
-  - type: OpenAPI
-    url: https://api.llama-api.com/openapi.json
-  - type: Authentication
-    url: https://docs.llama-api.com/authentication
-  contact:
-  - type: Support
-    url: https://support.llama-api.com
-  - type: Email
-    url: mailto:support@llama-api.com
-- name: Llama Text Completion API
-  description: Generate text completions using Llama language models
-  image: https://example.com/llama-completion-icon.png
-  humanURL: https://docs.llama-api.com/completions
-  baseURL: https://api.llama-api.com/v1
-  tags:
-  - AI
-  - LLM
-  - Text Generation
-  - Completion
-  properties:
-  - type: Documentation
-    url: https://docs.llama-api.com/completions
-  - type: Pricing
-    url: https://llama-api.com/pricing
-  - type: Rate Limits
-    url: https://docs.llama-api.com/rate-limits
-- name: Llama Embeddings API
-  description: Generate vector embeddings for text using Llama models
-  image: https://example.com/llama-embeddings-icon.png
-  humanURL: https://docs.llama-api.com/embeddings
-  baseURL: https://api.llama-api.com/v1
-  tags:
-  - AI
-  - Embeddings
-  - Vector
-  - Semantic Search
-  properties:
-  - type: Documentation
-    url: https://docs.llama-api.com/embeddings
-  - type: Examples
-    url: https://docs.llama-api.com/embeddings/examples
-maintainers:
-- name: Llama API Team
-  email: api-team@llama-api.com
-  url: https://llama-api.com/about
+aid: llama
+name: Llama
+description: >-
+  Meta's Llama family of large language models, available for download and
+  deployment. The Llama API provides access to Llama models for chat completions,
+  text generation, and embeddings.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- AI
-- Machine Learning
-- Large Language Models
-- Natural Language Processing
-- Meta
-- Llama
-include: []
+  - AI
+  - Machine Learning
+  - Large Language Models
+  - Natural Language Processing
+  - Meta
+url: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: llama:llama-api
+    name: Llama API
+    description: >-
+      The Llama API provides access to Meta's Llama language models for chat
+      completions, text generation, and embeddings.
+    humanURL: https://www.llama.com/docs/overview/
+    tags:
+      - AI
+      - LLM
+      - Chat
+    properties:
+      - type: Documentation
+        url: https://www.llama.com/docs/overview/
+      - type: GettingStarted
+        url: https://www.llama.com/docs/getting_started/
 common:
-- type: Terms of Service
-  url: https://llama-api.com/terms
-- type: Privacy Policy
-  url: https://llama-api.com/privacy
-- type: Status Page
-  url: https://status.llama-api.com
-- type: Blog
-  url: https://blog.llama-api.com
-- type: GitHub
-  url: https://github.com/llama-api
+  - url: https://www.llama.com/
+    type: Website
+  - url: https://www.llama.com/docs/overview/
+    type: Documentation
+  - url: https://ai.meta.com/llama/
+    type: Reference
+  - url: https://github.com/meta-llama/llama-models
+    type: GitHubOrganization
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
