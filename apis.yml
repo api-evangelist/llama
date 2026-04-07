@@ -8,10 +8,10 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI
-  - Machine Learning
   - Large Language Models
-  - Natural Language Processing
+  - Machine Learning
   - Meta
+  - Natural Language Processing
 url: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-03-16'
@@ -25,8 +25,8 @@ apis:
     humanURL: https://www.llama.com/docs/overview/
     tags:
       - AI
-      - LLM
       - Chat
+      - LLM
     properties:
       - type: Documentation
         url: https://www.llama.com/docs/overview/
