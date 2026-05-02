@@ -1,76 +1,98 @@
-# Llama API (llama)
-APIs for Meta's Llama large language models
+# Llama (llama)
+Llama is Meta's family of open-weight large language models, available for download, self-hosting, and via Meta's hosted Llama API for chat completions, text generation, and embeddings. The ecosystem also includes the open-source llama-models, llama-stack, and PurpleLlama safety projects on GitHub.
 
-**URL:** [Visit APIs.json URL](https://www.llama-api.com)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index
+- **Position:** Producing
+- **Access:** 3rd-Party
 
 ## Tags:
 
- - AI, Machine Learning, Large Language Models, Natural Language Processing, Meta, Llama
+ - AI, Large Language Models, Machine Learning, Meta, Open Source, LLM, Natural Language Processing
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### Llama Chat Completion API
-Generate conversational responses using Llama models
+### Llama API
+Meta's hosted REST API providing access to Llama large language models for chat completions, text generation, and embeddings. Authentication is via API key issued through llama.developer.meta.com.
 
-**Human URL:** [https://docs.llama-api.com/chat](https://docs.llama-api.com/chat)
+**Human URL:** [https://llama.developer.meta.com/docs/overview/](https://llama.developer.meta.com/docs/overview/)
 
-
-#### Tags:
-
- - AI, LLM, Chat, Conversational AI
-
-#### Properties
-
-- [Documentation](https://docs.llama-api.com/chat)
-- [OpenAPI](https://api.llama-api.com/openapi.json)
-- [Authentication](https://docs.llama-api.com/authentication)
-
-### Llama Text Completion API
-Generate text completions using Llama language models
-
-**Human URL:** [https://docs.llama-api.com/completions](https://docs.llama-api.com/completions)
-
+**Base URL:** https://api.llama.com
 
 #### Tags:
 
- - AI, LLM, Text Generation, Completion
+ - LLM, Chat, Embeddings, AI
 
 #### Properties
 
-- [Documentation](https://docs.llama-api.com/completions)
-- [Pricing](https://llama-api.com/pricing)
-- [Rate Limits](https://docs.llama-api.com/rate-limits)
+- [Documentation](https://llama.developer.meta.com/docs/overview/)
+- [GettingStarted](https://llama.developer.meta.com/docs/getting-started/)
+- [Portal](https://llama.developer.meta.com/)
+- [Waitlist](https://llama.developer.meta.com/join_waitlist)
 
-### Llama Embeddings API
-Generate vector embeddings for text using Llama models
+### Llama Models (open weights)
+Open-weight Llama model family available for direct download and self-hosted inference, distributed under Meta's Llama Community License.
 
-**Human URL:** [https://docs.llama-api.com/embeddings](https://docs.llama-api.com/embeddings)
-
+**Human URL:** [https://www.llama.com/llama-downloads/](https://www.llama.com/llama-downloads/)
 
 #### Tags:
 
- - AI, Embeddings, Vector, Semantic Search
+ - Open Source, Models, Self-Hosted
 
 #### Properties
 
-- [Documentation](https://docs.llama-api.com/embeddings)
-- [Examples](https://docs.llama-api.com/embeddings/examples)
+- [Documentation](https://www.llama.com/llama-downloads/)
+- [GitHub](https://github.com/meta-llama/llama-models)
+- [License](https://www.llama.com/llama3/license/)
+
+### Llama Stack
+Open-source framework standardizing the building blocks for Llama-based generative AI applications, including inference, safety, agents, and evaluation, with REST and SDK access across multiple providers.
+
+**Human URL:** [https://github.com/meta-llama/llama-stack](https://github.com/meta-llama/llama-stack)
+
+#### Tags:
+
+ - Framework, Agents, SDK, Open Source
+
+#### Properties
+
+- [Documentation](https://llama-stack.readthedocs.io/)
+- [GitHub](https://github.com/meta-llama/llama-stack)
+
+### PurpleLlama
+Open-source project providing tools and evaluations for assessing and improving the safety and security of generative AI models, including Llama Guard and CyberSecEval.
+
+**Human URL:** [https://github.com/meta-llama/PurpleLlama](https://github.com/meta-llama/PurpleLlama)
+
+#### Tags:
+
+ - Safety, Security, Open Source
+
+#### Properties
+
+- [Documentation](https://github.com/meta-llama/PurpleLlama)
+- [GitHub](https://github.com/meta-llama/PurpleLlama)
 
 ## Common Properties
 
-- [Terms of Service](https://llama-api.com/terms)
-- [Privacy Policy](https://llama-api.com/privacy)
-- [Status Page](https://status.llama-api.com)
-- [Blog](https://blog.llama-api.com)
-- [GitHub](https://github.com/llama-api)
+- [Website](https://www.llama.com/)
+- [Documentation](https://llama.developer.meta.com/docs/overview/)
+- [Portal](https://llama.developer.meta.com/)
+- [Reference](https://ai.meta.com/llama/)
+- [GitHubOrganization](https://github.com/meta-llama)
+- [License](https://www.llama.com/llama3/license/)
+- [AcceptableUsePolicy](https://www.llama.com/llama3/use-policy/)
 
 ## Maintainers
 
-**FN:** Llama API Team
+**FN:** API Evangelist
 
-**Email:** api-team@llama-api.com
+**Email:** info@apievangelist.com
