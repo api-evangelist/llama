@@ -95,6 +95,8 @@ apis:
       - type: GitHub
         url: https://github.com/meta-llama/PurpleLlama
 common:
+  - type: DomainSecurity
+    url: security/llama-domain-security.yml
   - type: Website
     url: https://www.llama.com/
   - type: Documentation
