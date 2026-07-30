@@ -6,9 +6,21 @@ description: >-
   text generation, and embeddings. The ecosystem also includes the open-source
   llama-models, llama-stack, and PurpleLlama safety projects on GitHub.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Producing
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llama.png
 tags:
   - AI
   - Large Language Models
