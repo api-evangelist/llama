@@ -22,6 +22,14 @@ position: Producing
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llama.png
 tags:
+  - Artificial Intelligence
+  - Large Language Models
+  - Machine-Learning
+  - Meta
+  - Open-Source
+  - LLM
+  - Natural Language Processing
+tags_raw:
   - AI
   - Large Language Models
   - Machine Learning
@@ -46,6 +54,11 @@ apis:
       - LLM
       - Chat
       - Embeddings
+      - Artificial Intelligence
+    tags_raw:
+      - LLM
+      - Chat
+      - Embeddings
       - AI
     properties:
       - type: Documentation
@@ -63,6 +76,10 @@ apis:
       self-hosted inference, distributed under Meta's Llama Community License.
     humanURL: https://www.llama.com/llama-downloads/
     tags:
+      - Open-Source
+      - Models
+      - Self-Hosted
+    tags_raw:
       - Open Source
       - Models
       - Self-Hosted
@@ -84,6 +101,11 @@ apis:
       - Framework
       - Agents
       - SDK
+      - Open-Source
+    tags_raw:
+      - Framework
+      - Agents
+      - SDK
       - Open Source
     properties:
       - type: Documentation
@@ -98,6 +120,10 @@ apis:
       Llama Guard and CyberSecEval.
     humanURL: https://github.com/meta-llama/PurpleLlama
     tags:
+      - Safety
+      - Security
+      - Open-Source
+    tags_raw:
       - Safety
       - Security
       - Open Source
