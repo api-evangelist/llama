@@ -6,6 +6,17 @@ description: >-
   text generation, and embeddings. The ecosystem also includes the open-source
   llama-models, llama-stack, and PurpleLlama safety projects on GitHub.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
