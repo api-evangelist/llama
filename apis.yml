@@ -35,11 +35,10 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llama.png
 tags:
   - Artificial Intelligence
-  - Large Language Models
+  - LLM
   - Machine-Learning
   - Meta
   - Open-Source
-  - LLM
   - Natural Language Processing
 tags_raw:
   - AI
