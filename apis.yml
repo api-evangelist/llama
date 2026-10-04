@@ -8,14 +8,19 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - meta-llama/llama-models
+    - meta-llama/llama-stack
+    - meta-llama/purplellama
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -36,10 +41,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llama.png
 tags:
   - Artificial Intelligence
   - LLM
-  - Machine-Learning
+  - Machine Learning
   - Meta
-  - Open-Source
+  - Open Source
   - Natural Language Processing
+  - Foundation Models
 tags_raw:
   - AI
   - Large Language Models
@@ -48,6 +54,9 @@ tags_raw:
   - Open Source
   - LLM
   - Natural Language Processing
+  - Machine-Learning
+  - Open-Source
+  - Foundation Models
 url: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-04-28'
@@ -87,13 +96,14 @@ apis:
       self-hosted inference, distributed under Meta's Llama Community License.
     humanURL: https://www.llama.com/llama-downloads/
     tags:
-      - Open-Source
+      - Open Source
       - Models
       - Self-Hosted
     tags_raw:
       - Open Source
       - Models
       - Self-Hosted
+      - Open-Source
     properties:
       - type: Documentation
         url: https://www.llama.com/llama-downloads/
@@ -112,12 +122,13 @@ apis:
       - Framework
       - Agents
       - SDK
-      - Open-Source
+      - Open Source
     tags_raw:
       - Framework
       - Agents
       - SDK
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://llama-stack.readthedocs.io/
@@ -133,11 +144,12 @@ apis:
     tags:
       - Safety
       - Security
-      - Open-Source
+      - Open Source
     tags_raw:
       - Safety
       - Security
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://github.com/meta-llama/PurpleLlama
