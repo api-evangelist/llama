@@ -1,4 +1,4 @@
-# Llama (llama)
+# Llama
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,98 +66,105 @@
 
 Llama is Meta's family of open-weight large language models, available for download, self-hosting, and via Meta's hosted Llama API for chat completions, text generation, and embeddings. The ecosystem also includes the open-source llama-models, llama-stack, and PurpleLlama safety projects on GitHub.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · LLM · Machine Learning · Meta · Open Source · Natural Language Processing · Foundation Models
 
-## Scope
+## Llama on APIs.io
 
-- **Type:** Index
-- **Position:** Producing
-- **Access:** 3rd-Party
+Everything profiled for Llama is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/llama/](https://apis.io/providers/llama/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (4)
 
- - AI, Large Language Models, Machine Learning, Meta, Open Source, LLM, Natural Language Processing
+- [Llama API](https://apis.io/apis/llama/llama-api/) — Meta's hosted REST API providing access to Llama large language models for chat completions, text generation, and embeddings. Authentication is via API key…
+- [Llama Models (open weights)](https://apis.io/apis/llama/llama-models/) — Open-weight Llama model family available for direct download and self-hosted inference, distributed under Meta's Llama Community License.
+- [Llama Stack](https://apis.io/apis/llama/llama-stack/) — Open-source framework standardizing the building blocks for Llama-based generative AI applications, including inference, safety, agents, and evaluation,…
+- [PurpleLlama](https://apis.io/apis/llama/purple-llama/) — Open-source project providing tools and evaluations for assessing and improving the safety and security of generative AI models, including Llama Guard and…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Llama API
-Meta's hosted REST API providing access to Llama large language models for chat completions, text generation, and embeddings. Authentication is via API key issued through llama.developer.meta.com.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://llama.developer.meta.com/docs/overview/](https://llama.developer.meta.com/docs/overview/)
+- [Llama Domain Security](https://apis.io/security/llama/llama-domain-security/)
 
-**Base URL:** https://api.llama.com
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - LLM, Chat, Embeddings, AI
+- [Llama Plans Pricing](https://apis.io/plans/llama/llama-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://llama.developer.meta.com/docs/overview/)
-- [GettingStarted](https://llama.developer.meta.com/docs/getting-started/)
-- [Portal](https://llama.developer.meta.com/)
-- [Waitlist](https://llama.developer.meta.com/join_waitlist)
+Published request limits.
 
-### Llama Models (open weights)
-Open-weight Llama model family available for direct download and self-hosted inference, distributed under Meta's Llama Community License.
+- [Llama Rate Limits](https://apis.io/rate-limits/llama/llama-rate-limits/)
 
-**Human URL:** [https://www.llama.com/llama-downloads/](https://www.llama.com/llama-downloads/)
+#### FinOps (1)
 
-#### Tags:
+What the API costs to run, by operation.
 
- - Open Source, Models, Self-Hosted
+- [Llama Finops](https://apis.io/finops/llama/llama-finops/)
 
-#### Properties
+## Where to find this API
 
-- [Documentation](https://www.llama.com/llama-downloads/)
-- [GitHub](https://github.com/meta-llama/llama-models)
-- [License](https://www.llama.com/llama3/license/)
-
-### Llama Stack
-Open-source framework standardizing the building blocks for Llama-based generative AI applications, including inference, safety, agents, and evaluation, with REST and SDK access across multiple providers.
-
-**Human URL:** [https://github.com/meta-llama/llama-stack](https://github.com/meta-llama/llama-stack)
-
-#### Tags:
-
- - Framework, Agents, SDK, Open Source
-
-#### Properties
-
-- [Documentation](https://llama-stack.readthedocs.io/)
-- [GitHub](https://github.com/meta-llama/llama-stack)
-
-### PurpleLlama
-Open-source project providing tools and evaluations for assessing and improving the safety and security of generative AI models, including Llama Guard and CyberSecEval.
-
-**Human URL:** [https://github.com/meta-llama/PurpleLlama](https://github.com/meta-llama/PurpleLlama)
-
-#### Tags:
-
- - Safety, Security, Open Source
-
-#### Properties
-
-- [Documentation](https://github.com/meta-llama/PurpleLlama)
-- [GitHub](https://github.com/meta-llama/PurpleLlama)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.llama.com/)
 - [Documentation](https://llama.developer.meta.com/docs/overview/)
-- [Portal](https://llama.developer.meta.com/)
-- [Reference](https://ai.meta.com/llama/)
-- [GitHubOrganization](https://github.com/meta-llama)
-- [License](https://www.llama.com/llama3/license/)
-- [AcceptableUsePolicy](https://www.llama.com/llama3/use-policy/)
+- [Blog](https://dev.meta.ai/resources/blog)
+- [GitHub](https://github.com/meta-llama)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
+**Kin Score 13.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/llama/](https://apis.io/providers/llama/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Llama: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/llama/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
